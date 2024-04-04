@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="change.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <h1>I'm a <span id="auto-type"></span></h1>
+    </div>
+
+    <!-- <script src="https://cdn.jsdeliver.net/npm/typed.js@2.0.12"></script> -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        let typed = new Typed("#auto-type",{
+            strings : ["Programmer", "Designer", "Student"],
+            typeSpeed : 150,
+            backSpeed : 150,
+            looped : true
+        })
+    </script>
+</body>
+</html>
